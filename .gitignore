@@ -1,0 +1,8 @@
+/Assets
+.zip
+.indd
+.psd
+.DS_Store
+node_modules
+/node_modules
+.ai
