@@ -124,47 +124,38 @@ var nameSpace = O2KL || {};
 
             .to(["#copy-1"], 0, {
             autoAlpha: 0
-        }, "+=2.5")
+        }, "+=2")
 
 
         .to(
-                ["#copy-2"],
-                0, {
-                    transformPerspective: 400,
-                    autoAlpha: 1,
-                    force3D: true,
-                    rotationZ: 0.01,
-                }
-            )
-            .to(
-                ["#copy-3"],
-                0, {
-                    transformPerspective: 400,
-                    autoAlpha: 1,
-                    force3D: true,
-                    rotationZ: 0.01,
-                    ease: Power2.easeIn,
-                }, "+=1.5"
-            )
-            .to(
-                ["#copy-2", "#copy-3"],
-                0, {
-                    transformPerspective: 400,
-                    autoAlpha: 0,
-                    force3D: true,
-                    rotationZ: 0.01,
-                    ease: Power2.easeIn,
-                }, "+=3"
-            ).to(
-                ["#copy-4", "#cta", "#protective"],
-                0, {
-                    transformPerspective: 400,
-                    autoAlpha: 1,
-                    force3D: true,
-                    rotationZ: 0.01,
-                    ease: Power2.easeIn,
-                }
-            )
+            ["#copy-2", "#copy-3"],
+            0, {
+                transformPerspective: 400,
+                autoAlpha: 1,
+                force3D: true,
+                rotationZ: 0.01,
+            },
+        )
+
+        .to(
+            ["#copy-2", "#copy-3"],
+            0, {
+                transformPerspective: 400,
+                autoAlpha: 0,
+                force3D: true,
+                rotationZ: 0.01,
+                ease: Power2.easeIn,
+            }, "+=3"
+        ).to(
+            ["#copy-4", "#cta", "#protective"],
+            0, {
+                transformPerspective: 400,
+                autoAlpha: 1,
+                force3D: true,
+                rotationZ: 0.01,
+                ease: Power2.easeIn,
+            }
+        )
 
 
 
