@@ -124,7 +124,7 @@ var nameSpace = O2KL || {};
 
             .to(["#copy-1"], 0.2, {
             autoAlpha: 0
-        }, "+=2.5")
+        }, "+=2")
 
 
         .to(
@@ -144,7 +144,7 @@ var nameSpace = O2KL || {};
                     force3D: true,
                     rotationZ: 0.01,
                     ease: Power2.easeIn,
-                }, "+=4"
+                }, "+=3"
             ).to(
                 ["#copy-3"],
                 0.2, {
@@ -163,7 +163,7 @@ var nameSpace = O2KL || {};
                     force3D: true,
                     rotationZ: 0.01,
                     ease: Power2.easeIn,
-                }, "+=4"
+                }, "+=2.8"
             ).to(
                 ["#copy-4", "#protective", "#logo"],
                 0.2, {
